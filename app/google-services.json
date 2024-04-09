@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "190657987090",
+    "project_id": "kujibaapp",
+    "storage_bucket": "kujibaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190657987090:android:a4de1e5fdbb07fbe334ecb",
+        "android_client_info": {
+          "package_name": "org.unh.kujiba_v001"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCko4FqZYHrH3fbVAhXwkJKFs4cQ963NkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
