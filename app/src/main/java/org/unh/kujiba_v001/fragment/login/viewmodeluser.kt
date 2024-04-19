@@ -1,5 +1,3 @@
-package org.unh.kujiba_v001.fragment.login
-
 import androidx.lifecycle.ViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -8,6 +6,7 @@ import kotlinx.coroutines.flow.StateFlow
 
 class AuthViewModel : ViewModel() {
     private val firebaseAuth: FirebaseAuth by lazy { FirebaseAuth.getInstance() }
+
 
     private val _currentUser = MutableStateFlow<FirebaseUser?>(null)
     val currentUser: StateFlow<FirebaseUser?> = _currentUser

@@ -5,6 +5,15 @@
       <entry key="PreviewRecipeList">
         <State />
       </entry>
+      <entry key="PreviewRecipeSearchScreen">
+        <State />
+      </entry>
+      <entry key="SplashScreenPreview">
+        <State />
+      </entry>
+      <entry key="StartActivity">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
