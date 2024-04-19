@@ -56,6 +56,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.contentpager)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.firestore.ktx)
     val nav_version = "2.7.7"
 
     implementation(libs.androidx.core.ktx)
@@ -67,7 +69,13 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.firebase.auth)
+    implementation ("androidx.compose.material:material:1.0.5")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
+    implementation ("androidx.compose.animation:animation:1.6.5")
+    implementation( "androidx.compose.material3:material3:1.0.0-alpha04")
     implementation ("io.coil-kt:coil-compose:1.4.0")
+    implementation ("io.coil-kt:coil-compose:1.4.0")
+    implementation ("androidx.preference:preference-ktx:1.1.1")
     implementation("com.google.firebase:firebase-auth-ktx:22.3.1")
     implementation ("androidx.compose.material:material:1.2.0")
     implementation(libs.androidx.lifecycle.viewmodel.compose)
